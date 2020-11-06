@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'Marvin';
+    src: url(../../fonts/Marvin.ttf);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/room.png') center no-repeat;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(241, 241, 241);
+}
+
+span {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    
+    background:linear-gradient(0deg, rgba(234,229,201,0.3) 0%, rgba(108,198,203,0.3) 100%);
+    margin-right: 10px;
+}
+
+.profile {
+    font-family: 'Marvin';
+    font-size: 25px;
+    width: 100%;
+    height: 8%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.avatar {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0, 255, 255);
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.avatar:hover {
+    background-color: rgb(0, 255, 255);
+    opacity: 0.7;
+}
+
+.name {
+    margin-top: 13px;
+    text-align: left;
+}
+
+.chat {
+    width: 100%;
+    height: 84%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    background-color: rgba(22, 22, 22, 0.541)
+}
+
+.menu a {
+    cursor: pointer;
+    color: #00c6ff;
+    padding: 10px 20px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .2s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #00C6FF;
+}
+
+.menu a:hover {
+    background-position: 0 0;
+    color:#fff;
+}
+
+.game {
+    height: 100vh;
+    float: right;
+    width: 79%;
+}
+
+.game_main {
+    width: 100%;
+    height: 92%;
+    background-color: rgba(31, 34, 204, 0.35);
+}
+
+.game_items {
+    height: 8%;
+    background-color: rgba(31, 177, 109, 0.541);
+}
