@@ -70,7 +70,7 @@ body {
     width:200px;
     text-decoration:none;
     text-align:center;
-    margin: 100px auto 20px auto;
+    margin: 0 auto 20px auto;
     display: block;
     background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
     background-position: 100% 0;

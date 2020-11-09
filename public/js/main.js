@@ -51,7 +51,7 @@ window.onload = function () {
 
 };
 
-let StartGame = document.getElementById('StartGame');
-StartGame.addEventListener('click', function() {
+let startGame = document.getElementById('startGame');
+startGame.addEventListener('click', function() {
     window.open('room.html', '_self');
 });
